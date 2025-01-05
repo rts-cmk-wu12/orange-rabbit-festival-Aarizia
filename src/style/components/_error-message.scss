@@ -1,0 +1,8 @@
+@use '../_variables.scss';
+
+.error-message {
+    color: variables.$input-border-invalid;
+    font-size: 1rem;
+    font-family: variables.$font-family;
+    font-weight: 700;
+}
